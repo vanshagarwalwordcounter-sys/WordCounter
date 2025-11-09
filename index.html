@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.ibb.co/8KX6B0y/Word-Counterlogo.png" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <center>
+            <p id="Heading">
+                Word Counter
+            </p>
+        </center>
+    </header>
+
+    <center>
+        <textarea type="text" id="MainInput" oninput="caller2()" value="" placeholder="Start typing....."></textarea>
+    </center>
+
+    <div id="Frames">
+        <center>
+        <span id="Words"> Words = 0 </span>
+        <span id="Characters">Characters = 0</span>
+        <span id="Characters1">Characters (with space) = 0</span>
+        <span id="Paragraphs">Paragraphs = 0</span>
+        <span id="Sentences">Sentences = 0</span>
+        </center>    
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
